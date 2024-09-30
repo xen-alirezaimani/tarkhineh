@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/font.css" />
+    <title>Tarkhineh</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="container main-header header-padding">
+      <div class="header">
+        <a class="header__toggle">
+          <span class="toggle__top bar"></span>
+          <span class="toggle__middle bar"></span>
+          <span class="toggle__bottom bar"></span>
+        </a>
+
+        <div class="header__logo">
+          <a href="" class="header__logo__image">
+            <img src="../asset/svg/tarkhineh-header-logo-right.svg" alt="" />
+            <img src="../asset/svg/tarkhineh-header-logo-left.svg" alt="" />
+          </a>
+        </div>
+
+        <nav class="header__cta">
+          <ul>
+            <li><a href=""> صفحه اصلی </a></li>
+            <li>
+              <a href=""> شعبه <i class="fa-solid fa-chevron-down"></i></a>
+              <ul class="drop-down-branch">
+                <li><a href=""> اکباتان </a></li>
+                <li><a href=""> مهدیه </a></li>
+                <li><a href=""> اسلامشهر </a></li>
+                <li><a href=""> آزادی </a></li>
+              </ul>
+            </li>
+            <li>
+              <a href=""> منو <i class="fa-solid fa-chevron-down"></i></a>
+              <ul class="drop-down-menu">
+                <li><a href=""> غذای اصلی </a></li>
+                <li><a href=""> پیش غذا </a></li>
+                <li><a href=""> دسر </a></li>
+                <li><a href=""> نوشیدنی </a></li>
+              </ul>
+            </li>
+            <li><a href=""> اعطای نمایندگی </a></li>
+            <li><a href=""> درباره ما </a></li>
+            <li><a href=""> تماس با ما </a></li>
+          </ul>
+        </nav>
+
+        <div class="header__icons">
+          <a class="header__icons__search header__icons__all" href=""
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a class="header__icons__shopping-card header__icons__all" href=""
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+          <span class="header__icons__user-profile header__icons__all" href=""
+            ><i class="fa-solid fa-user"></i
+            ><i class="fa-solid fa-chevron-down"></i>
+            <ul class="drop-down-profile">
+              <li>
+                <a href=""><i class="fa-solid fa-user"></i> پروفایل </a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-wallet"></i> پیگیری سفارش </a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-heart"></i> علاقه مندی ها </a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-location-dot"></i> آدرس های من
+                </a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-from-bracket"></i> خروج از
+                  حساب
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!--==================== SLIDER ====================-->
+    <!-- <div class="slider">
+
+    <div class="slider__slide active">
+        <div class="slider__slide__title"> تجربه غذای سالم و گیاهی به سبک ترخینه </div>
+        <img src="./asset/images/slider-desktop-1.png" alt="" />
+        <div class="slider__slide__btn"><a href="#"><span> سفارش آنلاین غذا </span></a></div>
+    </div>
+
+    <div class="slider__slide">
+        <div class="slider__slide__title"> طعم بی نظیر طبیعت! </div>
+        <img src="./asset/images/Slider-desktop-2.png" alt="" />
+        <div class="slider__slide__btn"><a href="#"><span> سفارش آنلاین غذا </span></a></div>
+    </div>
+
+    <div class="slider__slide">
+        <div class="slider__slide__title"> لذت غذای سالم و گیاهی را با ترخینه تجربه کنید! </div>
+        <img src="./asset/images/Slider-desktop-3.png" alt="" />
+        <div class="slider__slide__btn"><a href="#"><span> سفارش آنلاین غذا </span></a></div>
+    </div>
+
+    <div class="slider__slide">
+        <div class="slider__slide__title">  </div>
+        <img src="./asset/images/slider-desktop.png" alt="" />
+        <div class="slider__slide__btn"><a href="#"><span> سفارش آنلاین غذا </span></a></div>
+    </div>
+
+    <div class="slider__slide">
+        <div class="slider__slide__title">  </div>
+        <img src="./asset/images/slider-desktop.png" alt="" />
+        <div class="slider__slide__btn"><a href="#"><span> سفارش آنلاین غذا </span></a></div>
+    </div>
+
+    <div class="slider__slide">
+        <div class="slider__slide__title">  </div>
+        <img src="./asset/images/slider-desktop.png" alt="" />
+        <div class="slider__slide__btn"><a href="#"><span> سفارش آنلاین غذا </span></a></div>
+    </div>
+
+
+    <div id="nav-button--prev" class="slider__nav-button"><i class="fa-solid fa-chevron-right"></i></div>
+    <div id="nav-button--next" class="slider__nav-button"><i class="fa-solid fa-chevron-left"></i></div>
+      
+    <div class="slider__nav">
+        <div class="slider__nav__container">
+            <div class="slider__navlink active"></div>
+            <div class="slider__navlink"></div>
+            <div class="slider__navlink"></div>
+            <div class="slider__navlink"></div>
+            <div class="slider__navlink"></div>
+            <div class="slider__navlink"></div>
+        </div>
+    </div>
+
+</div> -->
+
+    <!--==================== MAIN-CATEGORIES ====================-->
+    <section>
+      <div class="main-categories-menu-title"><h2>منوی رستوران</h2></div>
+      <div class="container main-categories">
+        <div class="main-categories-item">
+          <div class="main-categories__background">
+            <div class="main-categories__image">
+              <img src="../asset/images/main-dish.png" alt="" />
+            </div>
+            <a href="#" class="btn main-categories__btn">غذای اصلی</a>
+          </div>
+        </div>
+        <div class="main-categories-item">
+          <div class="main-categories__background">
+            <div class="main-categories__image">
+              <img src="../asset/images/appetizer.png" alt="" />
+            </div>
+            <a href="#" class="btn main-categories__btn">پیش غذا</a>
+          </div>
+        </div>
+        <div class="main-categories-item">
+          <div class="main-categories__background">
+            <div class="main-categories__image">
+              <img src="../asset/images/dessert.png" alt="" />
+            </div>
+            <a href="#" class="btn main-categories__btn">دسر</a>
+          </div>
+        </div>
+        <div class="main-categories-item">
+          <div class="main-categories__background">
+            <div class="main-categories__image">
+              <img src="../asset/images/drink.png" alt="" />
+            </div>
+            <a href="#" class="btn main-categories__btn">نوشیدنی</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT-TARKHINEH ====================-->
+    <div class="container about-tarkhineh">
+      <div class="about-tarkhineh-detail">
+        <div class="about-tarkhineh__title">
+          <h2>رستوران های زنجیره ای ترخینه</h2>
+        </div>
+        <div class="about-tarkhineh__description">
+          <p>
+            مهمان نوازی یکی از مهم ترین مشخصه های ایرانیان است و باعث افتخار
+            ماست که بیش از 20 سال است که خدمت گزار مردم شریف ایران هستیم. ما در
+            رستوران های زنجیره ای ترخینه همواره تلاش کردیم که محیط اصیل بر پایه
+            معماری و طراحی مدرن در کنار طبیعتی دلنواز، غذایی سالم و در خور شان
+            شما عزیزان ارائه دهیم.
+          </p>
+        </div>
+        <div class="about-tarkhineh__btn">
+          <a class="btn" href="#"
+            ><span>اطلاعات بیشتر</span
+            ><span class="flex-center about-tarkhineh__arrow">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.4995 13.78C10.3729 13.78 10.2462 13.7333 10.1462 13.6333L5.79953 9.28668C5.09286 8.58001 5.09286 7.42001 5.79953 6.71335L10.1462 2.36668C10.3395 2.17335 10.6595 2.17335 10.8529 2.36668C11.0462 2.56001 11.0462 2.88001 10.8529 3.07335L6.5062 7.42001C6.1862 7.74001 6.1862 8.26001 6.5062 8.58001L10.8529 12.9267C11.0462 13.12 11.0462 13.44 10.8529 13.6333C10.7529 13.7267 10.6262 13.78 10.4995 13.78Z"
+                  fill="white"
+                />
+              </svg> </span
+          ></a>
+        </div>
+      </div>
+      <div class="about-tarkhineh-features">
+        <div class="about-tarkhineh__features-item">
+          <span class="feature-icon feature-icon-one"><i></i></span
+          ><span class="feature-title"><h2>پرسنلی مجرب و حرفه ای</h2></span>
+        </div>
+        <div class="about-tarkhineh__features-item">
+          <span class="feature-icon feature-icon-two"></span
+          ><span class="feature-title"><h2>کیفیت بالای غذاها</h2></span>
+        </div>
+        <div class="about-tarkhineh__features-item">
+          <span class="feature-icon feature-icon-three"></span
+          ><span class="feature-title"><h2>محیطی دلنشین و آرام</h2></span>
+        </div>
+        <div class="about-tarkhineh__features-item">
+          <span class="feature-icon feature-icon-four"></span
+          ><span class="feature-title"><h2>منوی متنوع</h2></span>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== SELECT-BRANCH ====================-->
+    <div class="text-align-center select-branch-title">
+      <h2>ترخینه گردی</h2>
+    </div>
+    <div class="container select-branch">
+      <div class="branch">
+        <div class="branch__image">
+          <img src="/asset/images/branchs/ekbatan-branch.jpg" alt="" />
+          <div class="flex-center branch-gallery-overlay">
+            <div class="flex-center">
+              <div class="flex-center">
+                <span class="branch-gallery">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.0003 30.3333H12.0003C4.76033 30.3333 1.66699 27.24 1.66699 20V12C1.66699 4.75996 4.76033 1.66663 12.0003 1.66663H20.0003C27.2403 1.66663 30.3337 4.75996 30.3337 12V20C30.3337 27.24 27.2403 30.3333 20.0003 30.3333ZM12.0003 3.66663C5.85366 3.66663 3.66699 5.85329 3.66699 12V20C3.66699 26.1466 5.85366 28.3333 12.0003 28.3333H20.0003C26.147 28.3333 28.3337 26.1466 28.3337 20V12C28.3337 5.85329 26.147 3.66663 20.0003 3.66663H12.0003Z"
+                      fill="#F9F9F9"
+                    />
+                    <path
+                      d="M11.9997 14.3333C9.97301 14.3333 8.33301 12.6933 8.33301 10.6667C8.33301 8.64 9.97301 7 11.9997 7C14.0263 7 15.6663 8.64 15.6663 10.6667C15.6663 12.6933 14.0263 14.3333 11.9997 14.3333ZM11.9997 9C11.0797 9 10.333 9.74667 10.333 10.6667C10.333 11.5867 11.0797 12.3333 11.9997 12.3333C12.9197 12.3333 13.6663 11.5867 13.6663 10.6667C13.6663 9.74667 12.9197 9 11.9997 9Z"
+                      fill="#F9F9F9"
+                    />
+                    <path
+                      d="M3.56035 26.2667C3.24035 26.2667 2.92035 26.1067 2.73368 25.8267C2.42701 25.3734 2.54701 24.7467 3.01368 24.44L9.58701 20.0267C11.027 19.0534 13.0137 19.1734 14.3203 20.28L14.7603 20.6667C15.427 21.24 16.5603 21.24 17.2137 20.6667L22.7603 15.9067C24.1737 14.6934 26.4003 14.6934 27.827 15.9067L30.0003 17.7734C30.4137 18.1334 30.467 18.76 30.107 19.1867C29.747 19.6 29.1203 19.6534 28.6937 19.2934L26.5203 17.4267C25.8537 16.8534 24.7203 16.8534 24.0537 17.4267L18.507 22.1867C17.0937 23.4 14.867 23.4 13.4403 22.1867L13.0003 21.8C12.387 21.28 11.3737 21.2267 10.6937 21.6934L4.12035 26.1067C3.94701 26.2134 3.74701 26.2667 3.56035 26.2667Z"
+                      fill="#F9F9F9"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="branch-detail">
+          <div class="text-align-center branch__title">
+            <h2>شعبه اکباتان</h2>
+          </div>
+          <div class="text-align-center margin-top-4 branch__address">
+            <p>شهرک اکباتان فاز 3، مجتمع تجاری کوروش، طبقه سوم</p>
+          </div>
+        </div>
+        <div class="flex-center branch__select-btn">
+          <span class="btn" href="#"
+            ><span>صفحه شعبه</span
+            ><span class="branch__select-arrow"
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.4995 13.78C10.3729 13.78 10.2462 13.7333 10.1462 13.6333L5.79953 9.28668C5.09286 8.58001 5.09286 7.42001 5.79953 6.71335L10.1462 2.36668C10.3395 2.17335 10.6595 2.17335 10.8529 2.36668C11.0462 2.56001 11.0462 2.88001 10.8529 3.07335L6.5062 7.42001C6.1862 7.74001 6.1862 8.26001 6.5062 8.58001L10.8529 12.9267C11.0462 13.12 11.0462 13.44 10.8529 13.6333C10.7529 13.7267 10.6262 13.78 10.4995 13.78Z"
+                  fill="#417f56"
+                /></svg
+            ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="branch">
+        <div class="branch__image">
+          <img src="/asset/images/branchs/ekbatan-branch.jpg" alt="" />
+          <div class="flex-center branch-gallery-overlay">
+            <div class="flex-center">
+              <div class="flex-center">
+                <span class="branch-gallery">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.0003 30.3333H12.0003C4.76033 30.3333 1.66699 27.24 1.66699 20V12C1.66699 4.75996 4.76033 1.66663 12.0003 1.66663H20.0003C27.2403 1.66663 30.3337 4.75996 30.3337 12V20C30.3337 27.24 27.2403 30.3333 20.0003 30.3333ZM12.0003 3.66663C5.85366 3.66663 3.66699 5.85329 3.66699 12V20C3.66699 26.1466 5.85366 28.3333 12.0003 28.3333H20.0003C26.147 28.3333 28.3337 26.1466 28.3337 20V12C28.3337 5.85329 26.147 3.66663 20.0003 3.66663H12.0003Z"
+                      fill="#F9F9F9"
+                    />
+                    <path
+                      d="M11.9997 14.3333C9.97301 14.3333 8.33301 12.6933 8.33301 10.6667C8.33301 8.64 9.97301 7 11.9997 7C14.0263 7 15.6663 8.64 15.6663 10.6667C15.6663 12.6933 14.0263 14.3333 11.9997 14.3333ZM11.9997 9C11.0797 9 10.333 9.74667 10.333 10.6667C10.333 11.5867 11.0797 12.3333 11.9997 12.3333C12.9197 12.3333 13.6663 11.5867 13.6663 10.6667C13.6663 9.74667 12.9197 9 11.9997 9Z"
+                      fill="#F9F9F9"
+                    />
+                    <path
+                      d="M3.56035 26.2667C3.24035 26.2667 2.92035 26.1067 2.73368 25.8267C2.42701 25.3734 2.54701 24.7467 3.01368 24.44L9.58701 20.0267C11.027 19.0534 13.0137 19.1734 14.3203 20.28L14.7603 20.6667C15.427 21.24 16.5603 21.24 17.2137 20.6667L22.7603 15.9067C24.1737 14.6934 26.4003 14.6934 27.827 15.9067L30.0003 17.7734C30.4137 18.1334 30.467 18.76 30.107 19.1867C29.747 19.6 29.1203 19.6534 28.6937 19.2934L26.5203 17.4267C25.8537 16.8534 24.7203 16.8534 24.0537 17.4267L18.507 22.1867C17.0937 23.4 14.867 23.4 13.4403 22.1867L13.0003 21.8C12.387 21.28 11.3737 21.2267 10.6937 21.6934L4.12035 26.1067C3.94701 26.2134 3.74701 26.2667 3.56035 26.2667Z"
+                      fill="#F9F9F9"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="branch-detail">
+          <div class="text-align-center branch__title">
+            <h2>شعبه اکباتان</h2>
+          </div>
+          <div class="text-align-center margin-top-4 branch__address">
+            <p>شهرک اکباتان فاز 3، مجتمع تجاری کوروش، طبقه سوم</p>
+          </div>
+        </div>
+        <div class="flex-center branch__select-btn">
+          <span class="btn" href="#"
+            ><span>صفحه شعبه</span
+            ><span class="branch__select-arrow"
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.4995 13.78C10.3729 13.78 10.2462 13.7333 10.1462 13.6333L5.79953 9.28668C5.09286 8.58001 5.09286 7.42001 5.79953 6.71335L10.1462 2.36668C10.3395 2.17335 10.6595 2.17335 10.8529 2.36668C11.0462 2.56001 11.0462 2.88001 10.8529 3.07335L6.5062 7.42001C6.1862 7.74001 6.1862 8.26001 6.5062 8.58001L10.8529 12.9267C11.0462 13.12 11.0462 13.44 10.8529 13.6333C10.7529 13.7267 10.6262 13.78 10.4995 13.78Z"
+                  fill="#417f56"
+                /></svg
+            ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="branch">
+        <div class="branch__image">
+          <img src="/asset/images/branchs/ekbatan-branch.jpg" alt="" />
+          <div class="flex-center branch-gallery-overlay">
+            <div class="flex-center">
+              <div class="flex-center">
+                <span class="branch-gallery">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.0003 30.3333H12.0003C4.76033 30.3333 1.66699 27.24 1.66699 20V12C1.66699 4.75996 4.76033 1.66663 12.0003 1.66663H20.0003C27.2403 1.66663 30.3337 4.75996 30.3337 12V20C30.3337 27.24 27.2403 30.3333 20.0003 30.3333ZM12.0003 3.66663C5.85366 3.66663 3.66699 5.85329 3.66699 12V20C3.66699 26.1466 5.85366 28.3333 12.0003 28.3333H20.0003C26.147 28.3333 28.3337 26.1466 28.3337 20V12C28.3337 5.85329 26.147 3.66663 20.0003 3.66663H12.0003Z"
+                      fill="#F9F9F9"
+                    />
+                    <path
+                      d="M11.9997 14.3333C9.97301 14.3333 8.33301 12.6933 8.33301 10.6667C8.33301 8.64 9.97301 7 11.9997 7C14.0263 7 15.6663 8.64 15.6663 10.6667C15.6663 12.6933 14.0263 14.3333 11.9997 14.3333ZM11.9997 9C11.0797 9 10.333 9.74667 10.333 10.6667C10.333 11.5867 11.0797 12.3333 11.9997 12.3333C12.9197 12.3333 13.6663 11.5867 13.6663 10.6667C13.6663 9.74667 12.9197 9 11.9997 9Z"
+                      fill="#F9F9F9"
+                    />
+                    <path
+                      d="M3.56035 26.2667C3.24035 26.2667 2.92035 26.1067 2.73368 25.8267C2.42701 25.3734 2.54701 24.7467 3.01368 24.44L9.58701 20.0267C11.027 19.0534 13.0137 19.1734 14.3203 20.28L14.7603 20.6667C15.427 21.24 16.5603 21.24 17.2137 20.6667L22.7603 15.9067C24.1737 14.6934 26.4003 14.6934 27.827 15.9067L30.0003 17.7734C30.4137 18.1334 30.467 18.76 30.107 19.1867C29.747 19.6 29.1203 19.6534 28.6937 19.2934L26.5203 17.4267C25.8537 16.8534 24.7203 16.8534 24.0537 17.4267L18.507 22.1867C17.0937 23.4 14.867 23.4 13.4403 22.1867L13.0003 21.8C12.387 21.28 11.3737 21.2267 10.6937 21.6934L4.12035 26.1067C3.94701 26.2134 3.74701 26.2667 3.56035 26.2667Z"
+                      fill="#F9F9F9"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="branch-detail">
+          <div class="text-align-center branch__title">
+            <h2>شعبه اکباتان</h2>
+          </div>
+          <div class="text-align-center margin-top-4 branch__address">
+            <p>شهرک اکباتان فاز 3، مجتمع تجاری کوروش، طبقه سوم</p>
+          </div>
+        </div>
+        <div class="flex-center branch__select-btn">
+          <span class="btn" href="#"
+            ><span>صفحه شعبه</span
+            ><span class="branch__select-arrow"
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.4995 13.78C10.3729 13.78 10.2462 13.7333 10.1462 13.6333L5.79953 9.28668C5.09286 8.58001 5.09286 7.42001 5.79953 6.71335L10.1462 2.36668C10.3395 2.17335 10.6595 2.17335 10.8529 2.36668C11.0462 2.56001 11.0462 2.88001 10.8529 3.07335L6.5062 7.42001C6.1862 7.74001 6.1862 8.26001 6.5062 8.58001L10.8529 12.9267C11.0462 13.12 11.0462 13.44 10.8529 13.6333C10.7529 13.7267 10.6262 13.78 10.4995 13.78Z"
+                  fill="#417f56"
+                /></svg
+            ></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="branch">
+        <div class="branch__image">
+          <img src="/asset/images/branchs/ekbatan-branch.jpg" alt="" />
+          <div class="flex-center branch-gallery-overlay">
+            <div class="flex-center">
+              <div class="flex-center">
+                <span class="branch-gallery">
+                  <!-- <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.0003 30.3333H12.0003C4.76033 30.3333 1.66699 27.24 1.66699 20V12C1.66699 4.75996 4.76033 1.66663 12.0003 1.66663H20.0003C27.2403 1.66663 30.3337 4.75996 30.3337 12V20C30.3337 27.24 27.2403 30.3333 20.0003 30.3333ZM12.0003 3.66663C5.85366 3.66663 3.66699 5.85329 3.66699 12V20C3.66699 26.1466 5.85366 28.3333 12.0003 28.3333H20.0003C26.147 28.3333 28.3337 26.1466 28.3337 20V12C28.3337 5.85329 26.147 3.66663 20.0003 3.66663H12.0003Z" fill="#F9F9F9"/>
+                    <path d="M11.9997 14.3333C9.97301 14.3333 8.33301 12.6933 8.33301 10.6667C8.33301 8.64 9.97301 7 11.9997 7C14.0263 7 15.6663 8.64 15.6663 10.6667C15.6663 12.6933 14.0263 14.3333 11.9997 14.3333ZM11.9997 9C11.0797 9 10.333 9.74667 10.333 10.6667C10.333 11.5867 11.0797 12.3333 11.9997 12.3333C12.9197 12.3333 13.6663 11.5867 13.6663 10.6667C13.6663 9.74667 12.9197 9 11.9997 9Z" fill="#F9F9F9"/>
+                    <path d="M3.56035 26.2667C3.24035 26.2667 2.92035 26.1067 2.73368 25.8267C2.42701 25.3734 2.54701 24.7467 3.01368 24.44L9.58701 20.0267C11.027 19.0534 13.0137 19.1734 14.3203 20.28L14.7603 20.6667C15.427 21.24 16.5603 21.24 17.2137 20.6667L22.7603 15.9067C24.1737 14.6934 26.4003 14.6934 27.827 15.9067L30.0003 17.7734C30.4137 18.1334 30.467 18.76 30.107 19.1867C29.747 19.6 29.1203 19.6534 28.6937 19.2934L26.5203 17.4267C25.8537 16.8534 24.7203 16.8534 24.0537 17.4267L18.507 22.1867C17.0937 23.4 14.867 23.4 13.4403 22.1867L13.0003 21.8C12.387 21.28 11.3737 21.2267 10.6937 21.6934L4.12035 26.1067C3.94701 26.2134 3.74701 26.2667 3.56035 26.2667Z" fill="#F9F9F9"/>
+                    </svg> -->
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="branch-detail">
+          <div class="text-align-center branch__title">
+            <h2>شعبه اکباتان</h2>
+          </div>
+          <div class="text-align-center margin-top-4 branch__address">
+            <p>شهرک اکباتان فاز 3، مجتمع تجاری کوروش، طبقه سوم</p>
+          </div>
+        </div>
+        <div class="flex-center branch__select-btn">
+          <span class="btn" href="#"
+            ><span>صفحه شعبه</span
+            ><span class="branch__select-arrow"
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.4995 13.78C10.3729 13.78 10.2462 13.7333 10.1462 13.6333L5.79953 9.28668C5.09286 8.58001 5.09286 7.42001 5.79953 6.71335L10.1462 2.36668C10.3395 2.17335 10.6595 2.17335 10.8529 2.36668C11.0462 2.56001 11.0462 2.88001 10.8529 3.07335L6.5062 7.42001C6.1862 7.74001 6.1862 8.26001 6.5062 8.58001L10.8529 12.9267C11.0462 13.12 11.0462 13.44 10.8529 13.6333C10.7529 13.7267 10.6262 13.78 10.4995 13.78Z"
+                  fill="#417f56"
+                /></svg
+            ></span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== FOOTER ====================-->
+    <div class="container footer">
+      <div class="flex-center footer-accessible">
+        <div class="footer-accessible__title"><h2 class="footer__title">دسترسی آسان</h2></div>
+        <div class="footer-accessible__items">
+          <a href="/" data-link=""><h3 class="footer__item">پرسش های متداول</h3></a>
+          <a href="roles" data-link=""><h3 class="footer__item">قوانین ترخینه</h3></a>
+          <a href="privacy" data-link=""><h3 class="footer__item">حریم خصوصی</h3></a>
+          <div class="flex-center footer-accessible__social-media">
+            <div>
+              <svg class="footer__icons"
+                width="16"
+                height="13"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.425 0.125C13.5543 0.125 11.22 2.45937 11.22 5.33C11.22 5.5025 11.2631 5.67125 11.28 5.84C7.73059 5.50063 4.59184 3.79063 2.45996 1.175C2.36059 1.04937 2.20684 0.981875 2.04559 0.993125C1.88621 1.00437 1.74371 1.09625 1.66496 1.235C1.21684 2.00563 0.959962 2.8925 0.959962 3.845C0.959962 4.99813 1.37246 6.05375 2.00996 6.92C1.88621 6.86562 1.75121 6.83563 1.63496 6.77C1.48684 6.69125 1.30871 6.695 1.16434 6.78125C1.01996 6.8675 0.931837 7.02313 0.929962 7.19V7.25C0.929962 9.01812 1.84496 10.5538 3.19496 11.495C3.17996 11.4931 3.16496 11.4987 3.14996 11.495C2.98496 11.4669 2.81809 11.525 2.70746 11.6506C2.59684 11.7762 2.56121 11.9506 2.60996 12.11C3.14621 13.7769 4.51496 15.05 6.20996 15.515C4.85996 16.3175 3.29434 16.79 1.60496 16.79C1.23934 16.79 0.888712 16.7712 0.539962 16.73C0.314962 16.7 0.0993369 16.8312 0.0243371 17.045C-0.052538 17.2587 0.0318371 17.4969 0.224962 17.615C2.39059 19.0044 4.96121 19.82 7.72496 19.82C12.2043 19.82 15.7181 17.9487 18.075 15.275C20.4318 12.6012 21.66 9.12875 21.66 5.885C21.66 5.74813 21.6487 5.615 21.645 5.48C22.5243 4.80687 23.31 4.0175 23.925 3.095C24.0468 2.91687 24.0337 2.67875 23.8931 2.51375C23.7543 2.34875 23.52 2.29813 23.325 2.39C23.0775 2.50063 22.7887 2.51187 22.53 2.6C22.8712 2.14437 23.1637 1.65313 23.34 1.1C23.4 0.910625 23.3343 0.7025 23.1787 0.57875C23.0231 0.456875 22.8056 0.441875 22.635 0.545C21.8156 1.03063 20.9081 1.37187 19.95 1.58C19.02 0.71 17.7956 0.125 16.425 0.125ZM16.425 1.085C17.6493 1.085 18.7556 1.60813 19.53 2.435C19.6462 2.555 19.8168 2.60563 19.98 2.57C20.6062 2.44625 21.2006 2.26437 21.78 2.03C21.4462 2.48 21.0337 2.86437 20.55 3.155C20.3306 3.26187 20.2275 3.515 20.3081 3.74563C20.3868 3.97437 20.6268 4.1075 20.865 4.055C21.345 3.99687 21.7725 3.80187 22.23 3.68C21.8193 4.12437 21.3693 4.52563 20.88 4.88C20.7468 4.9775 20.6737 5.135 20.685 5.3C20.6925 5.495 20.7 5.68813 20.7 5.885C20.7 8.885 19.5487 12.1419 17.355 14.63C15.1612 17.1181 11.94 18.86 7.72496 18.86C5.81059 18.86 4.00309 18.4363 2.36996 17.69C4.39496 17.5344 6.26246 16.8181 7.76996 15.635C7.92746 15.5094 7.98934 15.2994 7.92559 15.1081C7.86184 14.9169 7.68559 14.7856 7.48496 14.78C5.90246 14.7519 4.57684 13.8313 3.86996 12.53C3.89621 12.53 3.91871 12.53 3.94496 12.53C4.41934 12.53 4.88809 12.47 5.32496 12.35C5.53496 12.2881 5.67934 12.0931 5.67184 11.8737C5.66434 11.6544 5.50871 11.4669 5.29496 11.42C3.58684 11.075 2.30621 9.68375 2.00996 7.955C2.49371 8.12187 2.98871 8.25313 3.52496 8.27C3.74434 8.28312 3.94309 8.14625 4.01059 7.93812C4.07809 7.73 3.99559 7.50125 3.80996 7.385C2.66996 6.62187 1.91996 5.3225 1.91996 3.845C1.91996 3.2975 2.06246 2.795 2.24996 2.315C4.64996 4.94937 8.00996 6.69875 11.805 6.89C11.955 6.8975 12.1012 6.83562 12.1987 6.72125C12.2962 6.605 12.3337 6.45125 12.3 6.305C12.2268 5.99375 12.18 5.66375 12.18 5.33C12.18 2.97875 14.0737 1.085 16.425 1.085Z"
+                  fill="#EDEDED"
+                />
+              </svg>
+            </div>
+            <div>
+              <svg class="footer__icons"
+                width="14"
+                height="14"
+                viewBox="0 0 22 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.68043 0.939941C3.24002 0.939941 0.44043 3.73953 0.44043 7.17994V15.8199C0.44043 19.2603 3.24002 22.0599 6.68043 22.0599H15.3204C18.7608 22.0599 21.5604 19.2603 21.5604 15.8199V7.17994C21.5604 3.73953 18.7608 0.939941 15.3204 0.939941H6.68043ZM6.68043 1.89994H15.3204C18.2419 1.89994 20.6004 4.25843 20.6004 7.17994V15.8199C20.6004 18.7415 18.2419 21.0999 15.3204 21.0999H6.68043C3.75892 21.0999 1.40043 18.7415 1.40043 15.8199V7.17994C1.40043 4.25843 3.75892 1.89994 6.68043 1.89994ZM16.7604 4.77994C16.5058 4.77994 16.2616 4.88108 16.0816 5.06112C15.9016 5.24115 15.8004 5.48533 15.8004 5.73994C15.8004 5.99455 15.9016 6.23873 16.0816 6.41876C16.2616 6.5988 16.5058 6.69994 16.7604 6.69994C17.015 6.69994 17.2592 6.5988 17.4393 6.41876C17.6193 6.23873 17.7204 5.99455 17.7204 5.73994C17.7204 5.48533 17.6193 5.24115 17.4393 5.06112C17.2592 4.88108 17.015 4.77994 16.7604 4.77994ZM11.0004 6.21994C8.09005 6.21994 5.72043 8.58956 5.72043 11.4999C5.72043 14.4103 8.09005 16.7799 11.0004 16.7799C13.9108 16.7799 16.2804 14.4103 16.2804 11.4999C16.2804 8.58956 13.9108 6.21994 11.0004 6.21994ZM11.0004 7.17994C13.392 7.17994 15.3204 9.10839 15.3204 11.4999C15.3204 13.8915 13.392 15.8199 11.0004 15.8199C8.60887 15.8199 6.68043 13.8915 6.68043 11.4999C6.68043 9.10839 8.60887 7.17994 11.0004 7.17994Z"
+                  fill="#EDEDED"
+                />
+              </svg>
+            </div>
+            <div>
+              <svg class="footer__icons"
+                width="14"
+                height="13"
+                viewBox="0 0 22 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.3008 0.373482C20.067 0.383739 19.8394 0.448805 19.6342 0.530982C19.4311 0.61261 18.2617 1.11173 16.5348 1.85005C14.808 2.58836 12.5632 3.54981 10.338 4.50317C5.88753 6.4099 1.51421 8.28598 1.51421 8.28598L1.54609 8.27379C1.54609 8.27379 1.28214 8.36202 1.01452 8.54848C0.880719 8.64171 0.736766 8.76207 0.6189 8.93754C0.501033 9.11302 0.414864 9.3617 0.447337 9.62473C0.561396 10.5486 1.5189 10.8107 1.5189 10.8107L1.52265 10.8125L5.79577 12.275C5.90472 12.6385 7.09183 16.6006 7.35296 17.4397C7.49718 17.9036 7.63216 18.1712 7.77296 18.3538C7.84342 18.4451 7.91726 18.5158 7.9989 18.5675C8.03134 18.5881 8.06545 18.6035 8.09921 18.6172H8.10109C8.10523 18.6191 8.10914 18.6192 8.11327 18.621L8.10202 18.6182C8.10987 18.6213 8.11761 18.6267 8.12546 18.6294C8.1407 18.6348 8.15003 18.6346 8.16952 18.6388C8.65891 18.8097 9.0639 18.4925 9.0639 18.4925L9.08077 18.4794L11.7058 16.0447L15.9658 19.3663L16.0192 19.3907C16.7649 19.7217 17.4392 19.537 17.8126 19.2332C18.1861 18.9293 18.333 18.5375 18.333 18.5375L18.3489 18.4963L21.4792 2.18098C21.5593 1.81597 21.5707 1.50046 21.4951 1.21536C21.4196 0.930253 21.2361 0.682414 21.0058 0.545045C20.7755 0.407676 20.5346 0.363226 20.3008 0.373482ZM20.3261 1.34942C20.421 1.34502 20.4914 1.35588 20.5136 1.36911C20.5358 1.38234 20.5457 1.3806 20.567 1.46098C20.5883 1.54137 20.5999 1.71068 20.5417 1.97567L20.5398 1.9813L17.4273 18.2019C17.42 18.2183 17.3551 18.3683 17.207 18.4888C17.056 18.6117 16.8879 18.7077 16.442 18.5207L11.7836 14.8879L11.6523 14.7847L11.6495 14.7875L10.2564 13.7422L18.0855 4.5313C18.1456 4.4607 18.184 4.37419 18.1961 4.28223C18.2081 4.19026 18.1932 4.09678 18.1533 4.01309C18.1133 3.92939 18.05 3.85906 17.9709 3.8106C17.8918 3.76215 17.8004 3.73764 17.7076 3.74005C17.617 3.7424 17.529 3.77035 17.4536 3.82067L6.12484 11.3732L1.84515 9.90786C1.84515 9.90786 1.42018 9.67137 1.39984 9.50661C1.39871 9.49748 1.39369 9.50574 1.41577 9.47286C1.43786 9.43998 1.49337 9.38447 1.56296 9.33598C1.70215 9.239 1.86109 9.18036 1.86109 9.18036L1.87702 9.17473L1.89296 9.16817C1.89296 9.16817 6.26651 7.29199 10.7167 5.38536C12.9418 4.43204 15.1862 3.4713 16.9126 2.73317C18.6386 1.99523 19.8858 1.46406 19.9914 1.42161C20.1116 1.37347 20.2311 1.35382 20.3261 1.34942ZM15.1342 6.52067L9.19702 13.506L9.19421 13.5088C9.18494 13.52 9.17618 13.5315 9.16796 13.5435C9.15854 13.5565 9.14978 13.5699 9.14171 13.5838C9.10835 13.6404 9.08698 13.7033 9.0789 13.7685C9.07889 13.7697 9.07889 13.771 9.0789 13.7722L8.30546 17.2504C8.2926 17.2128 8.2836 17.199 8.26984 17.1547V17.1538C8.02418 16.3645 6.90417 12.6278 6.74921 12.111L15.1342 6.52067ZM9.86734 14.6507L10.9342 15.4513L9.36671 16.9044L9.86734 14.6507Z"
+                  fill="#EDEDED"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-center footer-branch-list">
+        <div class="footer-branch-list__title"><h2 class="footer__title">شعبه های ترخینه</h2></div>
+        <div class="footer-branch-list__items">
+          <div><h3 class="footer__item">شعبه اکباتان</h3></div>
+          <div><h3 class="footer__item">شعبه چالوس</h3></div>
+          <div><h3 class="footer__item">شعبه اقدسیه</h3></div>
+          <div><h3 class="footer__item">شعبه ونک</h3></div>
+        </div>
+      </div>
+      <div class="send-comment">
+        <div class="send-comment__title"><h2 class="footer__title">پیام به ترخینه</h2></div>
+        <div class="send-comment__content">
+          <div class="flex-center send-comment__info">
+            <input id="comment-sender-name" type="text" placeholder="نام و نام خانوادگی">
+            <input id="comment-sender-phone" type="number" placeholder="شماره تماس"> 
+            <input id="comment-sender-email" type="email" placeholder="ایمیل">
+          </div>
+          <div class="send-comment__message">
+            <div class="comment-sender-message-text"><textarea name="comment-sender-message" id="comment-sender-message" placeholder="پیام شما"></textarea></div>
+            <div class="comment-character-counter"><p>0/200</p></div>
+            <div class="btn-container"><span class="btn btn--footer-send-comment">ارسال پیام</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/src/js/app.js" type="module"></script>
+  </body>
+</html>
